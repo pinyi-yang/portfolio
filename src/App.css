@@ -121,6 +121,44 @@ header a:hover {
   min-height: 500px;
 }
 
+.single-project {
+  padding: 15px 0;
+}
+
+.single-project-info {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.single-project-hero {
+
+}
+
+.single-project-img {
+  width: 100%;
+}
+
+.single-project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.single-project-link {
+  border: black 2px solid;
+  width: 90px;
+  border-radius: 6px;
+  text-align: center;
+  padding: 7px 5px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.single-project-note {
+
+}
+
 /* =================== Contact css ================= */
 
 

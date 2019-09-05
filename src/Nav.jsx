@@ -17,6 +17,9 @@ function Nav() {
           <li className="nav-li">
             <a href="#Contact">Contact</a>
           </li>
+          <li className="nav-li">
+            <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank'>Resume</a>
+          </li>
         </ul>
       </header>
       <div className="nav-spacer"></div>
