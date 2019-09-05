@@ -45,6 +45,14 @@ header {
   left: 0;
   width: 100%;
   height: 44px;
+  display: flex;
+}
+
+#logo {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 38px;
+  height: 34px;
 }
 
 header ul {
@@ -114,6 +122,12 @@ header a:hover {
   background: rgb(36, 36, 36);
   color: white;
   min-height: 500px;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 2fr;
+}
+
+.Slides * {
+  border: 1px solid white;
 }
 
 /* =================== Project css ================= */

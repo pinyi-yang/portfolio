@@ -24,10 +24,10 @@ function Project() {
           </p>
 
           <div className="single-project-links">
-            <a href={project.git}>
+            <a href={project.git} target='_blank'>
               <div className="single-project-link">Github</div>
             </a>
-            <a href={project.app}>
+            <a href={project.app} target='_blank'>
               <div className="single-project-link">Live App</div>
             </a>
           </div>

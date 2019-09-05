@@ -4,6 +4,7 @@ function Nav() {
   return (
     <>
       <header>
+        <img src="./profile.png" alt="shadownova" id='logo'/>
         <ul>
           <li className="nav-li">
             <a href="#About">About Me</a>

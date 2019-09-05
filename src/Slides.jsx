@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+import { projects } from './info';
 
 function Slides() {
   return (
     <>
       <div id="Slides" className="anchor-div"></div>
       <div className='App-sub Slides' id='Slides'>
-        <h2>Slides Show</h2>
+        <div className="slides-projects">
+
+        </div>
+
+        <div className="slides-intro">
+
+        </div>
+
+        <div className="slides-hero">
+
+        </div>
       </div>
     </>
   )
