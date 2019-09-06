@@ -59,10 +59,10 @@ function Slides() {
         <a href={`#project${index}`}>
           <div className="slides-intro-link">MORE</div>
         </a>
-        <a href={project.git}>
+        <a href={project.git} target='_blank'>
           <div className="slides-intro-link">Github</div>
         </a>
-        <a href={project.app}>
+        <a href={project.app} target='_blank'>
           <div className="slides-intro-link">Live App</div>
         </a>
       </div>
