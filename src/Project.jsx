@@ -2,8 +2,9 @@ import React from 'react';
 import {projects} from './info';
 
 function Project() {
-  const content = projects.map(project => (
-    <div className="single-project">
+  const content = projects.map((project, index) => (
+    <div className="single-project" >
+      <div className="anchor-div" id={`project${index}`}></div>
       <h2>{project.name}</h2>
 
       <div className="single-project-info">

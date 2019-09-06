@@ -216,9 +216,9 @@ header a:hover {
   min-height: 500px;
 }
 
-.single-project {
+/* .single-project {
   padding: 15px 0;
-}
+} */
 
 .single-project-info {
   display: grid;

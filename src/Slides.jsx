@@ -35,26 +35,6 @@ function Slides() {
     }, 8000);
     return () => clearInterval(slidesControl)
   })
-  // useEffect(() => {
-  //   let slidesControl = setInterval(() => {
-  //     console.log(`current slide is ${slideNum}`);
-  //     console.log(`total projects: ${projects.length}; curent: ${index}`);
-  //     if (slideNum === project.slides.length - 1) {
-  //       console.log(`change project ? ${index == projects.length - 1}`);
-  //       if (index == projects.length - 1) {
-  //         setIndex(0)
-  //       } else {
-  //         setIndex(index + 1);
-  //       } 
-  //       console.log(`presenting project ${index}`);
-  //       setSlideNum(0);
-  //     } else {
-  //       setSlideNum(slideNum+1);
-  //       console.log(`change to next slide ${slideNum}`);
-  //     }
-  //   }, 8000);
-  //   return () => clearInterval(slidesControl);
-  // });
 
   let side = projects.map((project, i) => {
     if (i === index) {
