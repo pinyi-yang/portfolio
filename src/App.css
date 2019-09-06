@@ -105,12 +105,12 @@ header a:hover {
 .single-skill {
   text-align: center;
   padding: 5px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .skill-icon {
-  min-width: 35px;
-  min-height: 35px;
+  min-width: 40px;
+  min-height: 40px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -121,13 +121,89 @@ header a:hover {
 .Slides {
   background: rgb(36, 36, 36);
   color: white;
-  min-height: 500px;
+  min-height: 600px;
   display: grid;
-  grid-template-columns: 0.8fr 1fr 2fr;
+  grid-template-columns: 0.5fr 2.8fr;
+  padding: 5px;
+  grid-gap: 10px;
 }
 
 .Slides * {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+}
+
+.slides-projects {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: repeat(5, 1fr);
+  padding: 8px 5px;
+  background: rgb(68, 68, 68);
+}
+
+.slide-project img {
+  width: 100%;
+}
+
+.selected-project {
+  border: 3px solid goldenrod;
+  padding: 3px;
+}
+
+.slides-content {
+  padding: 50px 10px 10px 50px;
+}
+
+.slides-content-sub {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.slides-intro {
+  min-height: 120px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.slides-intro-links {
+
+}
+
+.slides-intro-link {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding:12px 0; 
+  border: 2px solid white;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.slides-hero {
+  text-align: center;
+  height: 100%;
+}
+
+.slides-content-sub {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.slides-content-slide {
+  min-height: 65%;
+  max-width: 100%;
+}
+
+.slides-content-slidenote {
+  margin-top: 15px;
+  font-size: 20px;
+  background: rgba(68, 68, 68, 0.438);
+  border-radius: 10px;
+  padding: 12px 8px;
 }
 
 /* =================== Project css ================= */

@@ -24,7 +24,7 @@ export const projects = [
     slides: [
       {img: './img/slides/p2_tasks.gif', note: 'View your weekly and daily tasks. Always have the big scope in mind'},
       {img: './img/slides/p2_tracker.gif', note: 'Monitor your task with efficiency, drag and boost factors, and notes. You can always comeback for your future tasks'},
-      {img: './img/slides/summary.gif', note: 'Automatic summaries your tasks time usage and efficiency for a given time. You can rely it to make your work more efficient.'},
+      {img: './img/slides/p2_summary.gif', note: 'Automatic summaries your tasks time usage and efficiency for a given time. You can rely it to make your work more efficient.'},
     ],
     summary: 'My E&T (My Effort and Time) is designed to be an application integrated with personal planner, project tracker and effort and time summarizer. It will help users planning and tracking their short-term and long-term projects and goals, while tracking the outcome of users time usage and effort to provide statistic insides. The insides could further help users optmize their time and effort and boost performance.'
   },

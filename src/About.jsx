@@ -34,13 +34,13 @@ function About() {
     <>
       <div id="About" className="anchor-div"></div>
       <div className='App-sub About'>
-        <h2>About Me</h2>
+        <h1>About Me</h1>
         <div className="about-content">
           <div >
             <img src="./img/profile.png" alt="My Image" id="profile-img"/>
           </div>
           <div className="about-intro">
-            <h3>
+            <h2>
               Pinyi Yang {' '}
               <a href="https://github.com/shadownova65">
                 <FontAwesomeIcon icon={['fab', 'github']} size='lg' />
@@ -49,11 +49,11 @@ function About() {
               <a href="https://linkedin.com/in/pinyi-yang">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} color='#2969b1' size='lg'/>
               </a>
-            </h3>
-            <h4>Full Stack Developer, Ph.D. in Materials Science and Engineering</h4>
+            </h2>
+            <h3>Full Stack Developer, Ph.D. in Materials Science and Engineering</h3>
             <p>I am a full stack developer, experienced in bringing rudimentary abstract concepts into real-life application through my problem-solving, self-study and project management skills.
             </p>
-            <h4>Skills: </h4>
+            <h3>Skills: </h3>
             <div className="skills-div">
               {skillsContent}
             </div>
