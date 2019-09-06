@@ -34,7 +34,7 @@ function Slides() {
 
     }, 8000);
     return () => clearInterval(slidesControl)
-  }, [])
+  })
   // useEffect(() => {
   //   let slidesControl = setInterval(() => {
   //     console.log(`current slide is ${slideNum}`);
