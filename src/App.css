@@ -142,11 +142,16 @@ header a:hover {
 
 .slide-project img {
   width: 100%;
+  opacity: 0.45;
 }
 
 .selected-project {
-  border: 3px solid goldenrod;
+  border: 4px solid goldenrod;
   padding: 3px;
+}
+
+.selected-project img{
+  opacity: 1;
 }
 
 .slides-content {
