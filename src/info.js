@@ -10,7 +10,7 @@ export const projects = [
       {img: './img/slides/p4_leagues.gif', note: 'See all your fantasy basketball scoreboard and matchups of leagues and teams at any week.'},
       {img: './img/slides/p4_rivals.gif', note: 'Add your rivals. Find how your team perform against them everyweek and get prepared before matchup with your rivals'},
     ],
-    summary: 'Fantasy basketball Domina is a helper tool for yahoo fantasy gamers. It automatically synchronizes status of all your yahoo fantasy leagues and teams. Moreover, it also provides extra features include (rivals, result prediction and transaction recommendation)'
+    summary: 'Fantasy basketball Domina is a helper tool for yahoo fantasy gamers. It automatically synchronizes the status of all your yahoo fantasy leagues and teams. Moreover, it also provides extra features including rivals, result prediction and transaction recommendations.'
   },
   {
     name: 'My E&T',
@@ -26,7 +26,7 @@ export const projects = [
       {img: './img/slides/p2_tracker.gif', note: 'Monitor your task with efficiency, drag and boost factors, and notes. You can always comeback for your future tasks'},
       {img: './img/slides/p2_summary.gif', note: 'Automatic summaries your tasks time usage and efficiency for a given time. You can rely it to make your work more efficient.'},
     ],
-    summary: 'My E&T (My Effort and Time) is designed to be an application integrated with personal planner, project tracker and effort and time summarizer. It will help users planning and tracking their short-term and long-term projects and goals, while tracking the outcome of users time usage and effort to provide statistic insides. The insides could further help users optmize their time and effort and boost performance.'
+    summary: "My E&T (My Effort and Time) is designed to be an application integrated with personal planner, project tracker and effort and time summarizer. It will help users plan and track their short-term and long-term projects and goals, while tracking the outcome of users' time usage and effort to provide statistical insights. The insights could further help users optimize their time and effort and boost performance."
   },
   {
     name: 'Nutri Facts',
@@ -40,7 +40,7 @@ export const projects = [
       {img: './img/slides/p3_search.gif', note: 'Recommend meals based on your criteria. See the nutrition data before eating.'},
       {img: './img/slides/p3_meal.gif', note: 'Show you the overall nutrition data for your pending meal. You can always change to a healthier choice.'},
     ],
-    summary: 'Nutri Facts is a diet tracker with food suggestions and nutrient status visualization. It help you track your overall intake versus the nutrient goal for the users. It also recommend meal for users when they have no idea what to eat based on their criteria.'
+    summary: 'Nutri Facts is a diet tracker with food suggestions and nutrient status visualization. It helps you track your overall intake versus the nutrient goal for the users. It also recommends meals for users when they have no idea what to eat based on their criteria.'
   },
   {
     name: 'Safe Street',
@@ -54,7 +54,7 @@ export const projects = [
       {img: './img/slides/hack_summary.gif', note: 'Get summary score for overall quality, security, disaster risk and air quality of neighborhood based the search.'},
       {img: './img/slides/hack_detail.gif', note: 'Detailed info for each category can be viewed for further information.'},
     ],
-    summary: 'Safe Street is a mobile end app prototype to help house buyer, renter or visitor know a neighborhood in a fast and comprehensive way. It provides info regarding air quality, security and disaster risk in the neighborhood searched by user.'
+    summary: 'Safe Street is a mobile end app prototype to help home buyers, renters or visitors understand a neighborhood in a fast and comprehensive way. It provides info regarding air quality, security and disaster risk in the neighborhood searched by user.'
   },
   {
     name: 'Texas Holdem',
