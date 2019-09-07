@@ -16,7 +16,7 @@ function Nav() {
             <a href="#Projects">Projects</a>
           </li>
           <li className="nav-li">
-            <a href="#Contact">Contact</a>
+            <a href="#Contact">Contacts</a>
           </li>
           <li className="nav-li">
             <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank'>Resume</a>

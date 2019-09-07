@@ -18,7 +18,6 @@ a:hover {
 }
 
 .App {
-  border: 1px solid black;
   max-width: calc(1600px + 10%);
   padding: 15px 5%;
   margin: 0 auto;
@@ -33,6 +32,15 @@ h1, h2, h3, h4, h5 {
 }
 .anchor-div {
   height: 30px;
+}
+
+.inline-link {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p {
+  font-size: 18px
 }
 /* =================== Nav css ================= */
 header {
@@ -179,13 +187,20 @@ header a:hover {
   color: white;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
-  padding:12px 0; 
+  padding:14px 8px; 
   border: 2px solid white;
-  width: 120px;
+  width: 145px;
   margin: 0 auto;
   border-radius: 8px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slides-intro-link:hover {
+  background: rgb(240, 240, 240);
+  color: black;
 }
 
 .slides-hero {
@@ -242,12 +257,21 @@ header a:hover {
 
 .single-project-link {
   border: black 2px solid;
-  width: 90px;
+  width: 125px;
   border-radius: 6px;
   text-align: center;
   padding: 7px 5px;
   font-weight: bold;
   margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:  rgb(100, 100, 100);
+}
+
+.single-project-link:hover {
+  color: white;
+  background: rgb(100, 100, 100);
 }
 
 .single-project-note {
@@ -255,7 +279,25 @@ header a:hover {
 }
 
 /* =================== Contact css ================= */
+.Contacts {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
+.contact-icons-container {
+  width: 80%;
+  display: flex;
+  margin: 20px auto 0;
+  justify-content: space-around;
+}
+
+.contact-icons {
+  font-size: 22px;
+  font-weight: bold;
+}
 
 /* ================= @ media ====================== */
 @media(max-width: 1024px) {

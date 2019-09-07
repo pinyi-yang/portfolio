@@ -1,5 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import { projects } from './info';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faSpinner, faLink } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faSpinner);
 
 function Slides() {
   const [index, setIndex] = useState(0);
@@ -57,13 +62,19 @@ function Slides() {
       <div className='slides-intro'>{project.intro}</div>
       <div className="slides-intro-links">
         <a href={`#project${index}`}>
-          <div className="slides-intro-link">MORE</div>
+          <div className="slides-intro-link">
+            <FontAwesomeIcon icon={ faLink } size='lg'/> MORE
+          </div>
         </a>
         <a href={project.git} target='_blank'>
-          <div className="slides-intro-link">Github</div>
+          <div className="slides-intro-link">
+            <FontAwesomeIcon icon={['fab', 'github']} size='lg'/> Github
+          </div>
         </a>
         <a href={project.app} target='_blank'>
-          <div className="slides-intro-link">Live App</div>
+          <div className="slides-intro-link">
+            <FontAwesomeIcon icon={faSpinner} size='lg'/> Live App
+          </div>
         </a>
       </div>
     </>

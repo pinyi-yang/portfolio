@@ -1,5 +1,12 @@
 import React from 'react';
 import {projects} from './info';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faSpinner);
+
+
 
 function Project() {
   const content = projects.map((project, index) => (
@@ -14,7 +21,7 @@ function Project() {
         </div>
 
         <div className="single-project-note">
-          {project.summary}
+          <p>{project.summary}</p>
           <p>
             <b>Tech:</b> <br/>
             {project.tech.map(tech => (
@@ -26,10 +33,16 @@ function Project() {
 
           <div className="single-project-links">
             <a href={project.git} target='_blank'>
-              <div className="single-project-link">Github</div>
+              <div className="single-project-link">
+                <FontAwesomeIcon icon={['fab', 'github']} size='2x' /> {' '}
+                Github
+              </div>
             </a>
             <a href={project.app} target='_blank'>
-              <div className="single-project-link">Live App</div>
+              <div className="single-project-link">
+              <FontAwesomeIcon icon={ faSpinner } size='2x' /> {' '}
+                Live App
+              </div>
             </a>
           </div>
         </div>

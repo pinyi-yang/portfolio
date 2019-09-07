@@ -42,16 +42,21 @@ function About() {
           <div className="about-intro">
             <h2>
               Pinyi Yang {' '}
-              <a href="https://github.com/shadownova65">
+              <a href="https://github.com/shadownova65" target='_blank'>
                 <FontAwesomeIcon icon={['fab', 'github']} size='lg' />
               </a> {' '}
 
-              <a href="https://linkedin.com/in/pinyi-yang">
+              <a href="https://linkedin.com/in/pinyi-yang" target='_blank'>
                 <FontAwesomeIcon icon={['fab', 'linkedin']} color='#2969b1' size='lg'/>
               </a>
             </h2>
             <h3>Full Stack Developer, Ph.D. in Materials Science and Engineering</h3>
-            <p>I am a full stack developer, experienced in bringing rudimentary abstract concepts into real-life application through my problem-solving, self-study and project management skills.
+            <p>I am a full stack developer, experienced in bringing rudimentary abstract concepts into real-life applications through my problem-solving, self-study and project management skills.
+            </p>
+            <p>I currently specialize in Javascript, Typescript, React (Hooks), GraphQL, Node/Express. To learn more about me, please check my {' '}
+              <a href="https://github.com/shadownova65" target='_blank' className='inline-link'>Github</a>, {' '}
+              <a href="https://linkedin.com/in/pinyi-yang" target='_blank' className='inline-link'>LinkedIn</a> {' '} and {' '}
+              <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank' className='inline-link'>Resume</a>.
             </p>
             <h3>Skills: </h3>
             <div className="skills-div">
