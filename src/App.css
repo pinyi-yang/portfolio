@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  font-size: 18px
+  font-size: 15px
 }
 /* =================== Nav css ================= */
 header {
@@ -175,19 +175,20 @@ header a:hover {
 
 .slides-intro {
   min-height: 120px;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 18px;
+  margin-top: -25px;
 }
 
 .slides-intro-links {
-
+  margin-top: 20px;
+  padding-right: 40px;
 }
 
 .slides-intro-link {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  padding:14px 8px; 
+  padding: 12px 6px; 
   border: 2px solid white;
   width: 145px;
   margin: 0 auto;
@@ -220,7 +221,7 @@ header a:hover {
 
 .slides-content-slidenote {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 18px;
   background: rgba(68, 68, 68, 0.438);
   border-radius: 10px;
   padding: 12px 8px;
@@ -243,7 +244,11 @@ header a:hover {
 }
 
 .single-project-hero {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(202, 202, 202);
+  height: 100%;
 }
 
 .single-project-img {
@@ -275,7 +280,7 @@ header a:hover {
 }
 
 .single-project-note {
-
+  font-size: 15px;
 }
 
 /* =================== Contact css ================= */
@@ -290,12 +295,12 @@ header a:hover {
 .contact-icons-container {
   width: 80%;
   display: flex;
-  margin: 20px auto 0;
+  margin: 20px auto 10px;
   justify-content: space-around;
 }
 
 .contact-icons {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 

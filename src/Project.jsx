@@ -17,11 +17,10 @@ function Project() {
       <div className="single-project-info">
         <div className='single-project-hero'>
           <img src={project.img} alt={project.name} className='single-project-img'/>
-          
         </div>
 
         <div className="single-project-note">
-          <p>{project.summary}</p>
+          {project.summary}
           <p>
             <b>Tech:</b> <br/>
             {project.tech.map(tech => (
@@ -34,13 +33,13 @@ function Project() {
           <div className="single-project-links">
             <a href={project.git} target='_blank' rel="noopener noreferrer">
               <div className="single-project-link">
-                <FontAwesomeIcon icon={['fab', 'github']} size='2x' /> {' '}
+                <FontAwesomeIcon icon={['fab', 'github']} size='lg' /> {' '}
                 Github
               </div>
             </a>
             <a href={project.app} target='_blank' rel="noopener noreferrer">
               <div className="single-project-link">
-              <FontAwesomeIcon icon={ faSpinner } size='2x' /> {' '}
+              <FontAwesomeIcon icon={ faSpinner } size='lg' /> {' '}
                 Live App
               </div>
             </a>
