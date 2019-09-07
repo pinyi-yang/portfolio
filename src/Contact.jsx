@@ -14,21 +14,21 @@ function Contact() {
         <h1>Find Me Online</h1>        
         <div className="contact-icons-container">
           <div className="contact-icons">
-            <a href="https://github.com/shadownova65" target='_blank'>
+            <a href="https://github.com/shadownova65" target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={['fab', 'github']} color='white' size='3x' />
             </a> <br/>
             <span>Github</span>
           </div>
   
           <div className="contact-icons">
-            <a href="https://linkedin.com/in/pinyi-yang" target='_blank'>
+            <a href="https://linkedin.com/in/pinyi-yang" target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={['fab', 'linkedin']} color='#2969b1' size='3x' />
             </a> <br/>
             <span>LinkedIn</span>
           </div>
   
           <div className="contact-icons">
-            <a href="mailto:pyyanguw@gmail.com" target='_blank'>
+            <a href="mailto:pyyanguw@gmail.com" target='_blank' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEnvelope} color='white' size='3x'/>
             </a> <br/>
             <span>Email</span>

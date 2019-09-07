@@ -32,13 +32,13 @@ function Project() {
           </p>
 
           <div className="single-project-links">
-            <a href={project.git} target='_blank'>
+            <a href={project.git} target='_blank' rel="noopener noreferrer">
               <div className="single-project-link">
                 <FontAwesomeIcon icon={['fab', 'github']} size='2x' /> {' '}
                 Github
               </div>
             </a>
-            <a href={project.app} target='_blank'>
+            <a href={project.app} target='_blank' rel="noopener noreferrer">
               <div className="single-project-link">
               <FontAwesomeIcon icon={ faSpinner } size='2x' /> {' '}
                 Live App

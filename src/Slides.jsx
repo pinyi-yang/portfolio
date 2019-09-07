@@ -66,12 +66,12 @@ function Slides() {
             <FontAwesomeIcon icon={ faLink } size='lg'/> MORE
           </div>
         </a>
-        <a href={project.git} target='_blank'>
+        <a href={project.git} target='_blank' rel="noopener noreferrer">
           <div className="slides-intro-link">
             <FontAwesomeIcon icon={['fab', 'github']} size='lg'/> Github
           </div>
         </a>
-        <a href={project.app} target='_blank'>
+        <a href={project.app} target='_blank' rel="noopener noreferrer">
           <div className="slides-intro-link">
             <FontAwesomeIcon icon={faSpinner} size='lg'/> Live App
           </div>

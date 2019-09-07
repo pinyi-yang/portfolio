@@ -19,7 +19,7 @@ function Nav() {
             <a href="#Contact">Contacts</a>
           </li>
           <li className="nav-li">
-            <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank'>Resume</a>
+            <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank' rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </header>

@@ -42,11 +42,11 @@ function About() {
           <div className="about-intro">
             <h2>
               Pinyi Yang {' '}
-              <a href="https://github.com/shadownova65" target='_blank'>
+              <a href="https://github.com/shadownova65" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'github']} size='lg' />
               </a> {' '}
 
-              <a href="https://linkedin.com/in/pinyi-yang" target='_blank'>
+              <a href="https://linkedin.com/in/pinyi-yang" target='_blank' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} color='#2969b1' size='lg'/>
               </a>
             </h2>
@@ -54,9 +54,9 @@ function About() {
             <p>I am a full stack developer, experienced in bringing rudimentary abstract concepts into real-life applications through my problem-solving, self-study and project management skills.
             </p>
             <p>I currently specialize in Javascript, Typescript, React (Hooks), GraphQL, Node/Express. To learn more about me, please check my {' '}
-              <a href="https://github.com/shadownova65" target='_blank' className='inline-link'>Github</a>, {' '}
-              <a href="https://linkedin.com/in/pinyi-yang" target='_blank' className='inline-link'>LinkedIn</a> {' '} and {' '}
-              <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank' className='inline-link'>Resume</a>.
+              <a href="https://github.com/shadownova65" rel="noopener noreferrer" target='_blank' className='inline-link'>Github</a>, {' '}
+              <a href="https://linkedin.com/in/pinyi-yang" rel="noopener noreferrer" target='_blank' className='inline-link'>LinkedIn</a> {' '} and {' '}
+              <a href="./files/Pinyi, Full Stack Developer.pdf" rel="noopener noreferrer" target='_blank' className='inline-link'>Resume</a>.
             </p>
             <h3>Skills: </h3>
             <div className="skills-div">
