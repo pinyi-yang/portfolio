@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll';
 
 function Nav() {
   return (
@@ -7,16 +8,44 @@ function Nav() {
         <img src="./profile.png" alt="shadownova" id='logo'/>
         <ul>
           <li className="nav-li">
-            <a href="#About">About Me</a>
+            <Link 
+              to='About'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              duration={600} >
+              About Me
+            </Link>
           </li>
           <li className="nav-li">
-            <a href="#Slides">Slides</a>
+            <Link 
+              to='Slides'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              duration={600} >
+              Slides
+            </Link>
           </li>
           <li className="nav-li">
-            <a href="#Projects">Projects</a>
+            <Link 
+              to='Projects'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              duration={600} >
+              Projects
+            </Link>
           </li>
           <li className="nav-li">
-            <a href="#Contact">Contacts</a>
+            <Link 
+              to='Contact'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              duration={600} >
+              Contact
+            </Link>
           </li>
           <li className="nav-li">
             <a href="./files/Pinyi, Full Stack Developer.pdf" target='_blank' rel="noopener noreferrer">Resume</a>

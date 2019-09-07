@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { projects } from './info';
+import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -61,11 +62,16 @@ function Slides() {
     <>
       <div className='slides-intro'>{project.intro}</div>
       <div className="slides-intro-links">
-        <a href={`#project${index}`}>
+        <Link 
+          to={`project${index}`}
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          duration={600} >
           <div className="slides-intro-link">
             <FontAwesomeIcon icon={ faLink } size='lg'/> MORE
           </div>
-        </a>
+        </Link>
         <a href={project.git} target='_blank' rel="noopener noreferrer">
           <div className="slides-intro-link">
             <FontAwesomeIcon icon={['fab', 'github']} size='lg'/> Github
