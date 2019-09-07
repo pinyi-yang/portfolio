@@ -175,7 +175,6 @@ header a:hover {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 10px;
-  height: 100%;
 }
 
 .slides-intro {
@@ -211,7 +210,6 @@ header a:hover {
 
 .slides-hero {
   text-align: center;
-  height: 100%;
 }
 
 .slides-content-sub {
@@ -221,6 +219,7 @@ header a:hover {
 
 .slides-content-slide {
   min-height: 65%;
+  max-height: 70%;
   max-width: 100%;
 }
 
@@ -230,6 +229,39 @@ header a:hover {
   background: rgba(68, 68, 68, 0.438);
   border-radius: 10px;
   padding: 12px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4em;
+}
+
+.slides-content-pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.slides-content-page {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.slides-content-page:hover {
+  background: rgb(240, 240, 240);
+  color: black;
+  cursor: pointer;
+}
+
+.selected-slide {
+  background: rgb(240, 240, 240);
+  color: black; 
 }
 
 /* =================== Project css ================= */

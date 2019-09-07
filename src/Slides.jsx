@@ -114,6 +114,19 @@ function Slides() {
       <div className="slides-content-slidenote">
         {slide.note}
       </div>
+      <div className="slides-content-pages">
+        {project.slides.map((slide, num) => {
+          if (num === slideNum) {
+            return <div className="slides-content-page selected-slide">
+              {num}
+            </div> 
+          } else {
+            return <div className="slides-content-page" onClick={() => setSlideNum(num)}>
+            {num}
+          </div>
+          }
+        })}
+      </div>
     </>
   )
 
