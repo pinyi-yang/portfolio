@@ -22,7 +22,7 @@ export const projects = [
       ],
     img: './img/projects/myE&T.png',
     slides: [
-      {img: './img/slides/p2_tasks.gif', note: 'View your weekly and daily tasks. Always have the big scope in mind'},
+      {img: './img/slides/p2_tasks.gif', note: 'View your weekly and daily tasks. Always have the overview in mind'},
       {img: './img/slides/p2_tracker.gif', note: 'Monitor your task with efficiency, drag and boost factors, and notes. You can always comeback for your future tasks'},
       {img: './img/slides/p2_summary.gif', note: 'Automatic summaries your tasks time usage and efficiency for a given time. You can rely it to make your work more efficient.'},
     ],

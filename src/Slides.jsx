@@ -11,7 +11,8 @@ function Slides() {
   const [index, setIndex] = useState(0);
   const [slideNum, setSlideNum] = useState(0);
   const [project, setProject] = useState(projects[index]);
-  const [slide, setSlide] = useState(project.slides[slideNum])
+  const [slide, setSlide] = useState(project.slides[slideNum]);
+  const [pause, setPause] = useState(false);
   
   useEffect(() => {
     console.log(`index: ${index}`);
@@ -21,19 +22,20 @@ function Slides() {
   useEffect(() => {
     console.log(`Project ${index}, slide ${slideNum}`);
     setSlide(project.slides[slideNum])
-  }, [slideNum])
+  }, [slideNum, project])
 
   useEffect(() => {
     const slidesControl = setInterval(() => {
       if ( slideNum < project.slides.length - 1 ) {
         setSlideNum(slideNum+1);
       } else {
-        if ( index < projects.length - 1 ) {
-          setIndex(index + 1);
-        } else {
-          setIndex(0);
+        if (!pause) {
+          if ( index < projects.length - 1 ) {
+            setIndex(index + 1);
+          } else {
+            setIndex(0);
+          }
         }
-
         setSlideNum(0);
       }
       
@@ -42,18 +44,38 @@ function Slides() {
     return () => clearInterval(slidesControl)
   })
 
+  const handleMouseEnter = (index) => {
+    setPause(true);
+    setIndex(index);
+    setSlideNum(0);
+  }
+
   let side = projects.map((project, i) => {
     if (i === index) {
       return (
-        <div className="slide-project selected-project">
-          <img src={project.img} alt={project.name}/>
-        </div>
+        <Link 
+          to={`project${index}`}
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          duration={600} >
+          <div className="slide-project selected-project" onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={ () => setPause(false)} >
+            <img src={project.img} alt={project.name}/>
+          </div>
+        </Link>
       )
     } else {
       return (
-        <div className="slide-project">
-          <img src={project.img} alt={project.name}/>
-        </div>
+        <Link 
+          to={`project${index}`}
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          duration={600} >
+          <div className="slide-project" onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={() => setPause(false)}>
+            <img src={project.img} alt={project.name}/>
+          </div>    
+        </Link>
       )
     }
   })
