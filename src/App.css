@@ -88,7 +88,7 @@ header a:hover {
 
 /* =================== About css ================= */
 .About {
-  border: rgb(75, 75, 75) 4px solid;
+  /* border: rgb(75, 75, 75) 4px solid; */
   min-height: 300px;
   border-radius: 10px;
 }
