@@ -20,7 +20,7 @@ function Slides() {
   }, [index]);
 
   useEffect(() => {
-    console.log(`Project ${index}, slide ${slideNum}`);
+    // console.log(`Project ${index}, slide ${slideNum}`);
     setSlide(project.slides[slideNum])
   }, [slideNum, project])
 

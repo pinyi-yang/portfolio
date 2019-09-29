@@ -218,7 +218,7 @@ header a:hover {
 }
 
 .slides-content-slide {
-  min-height: 65%;
+  min-height: 350px;
   max-height: 70%;
   max-width: 100%;
 }
